@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<students>
+
+	<student>
+		<roll>101</roll>
+		<name>John</name>
+		<phone>+91 99999 88888</phone>
+	</student>
+	
+	<student>
+		<roll>201</roll>
+		<name>Fionna</name>
+		<phone>+91 98765 12345</phone>
+	</student>
+	
+	<student>
+		<roll>301</roll>
+		<name>Kia</name>
+		<phone>+1 90909 87654</phone>
+	</student>
+
+</students>
