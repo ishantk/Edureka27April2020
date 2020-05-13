@@ -30,6 +30,11 @@ class Employee{
 		this.salary = salary;
 	}
 	
+	void showEmployee() {
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println(eid+"\t"+name+"\t"+salary);
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+	}
 	
 }
 
@@ -39,7 +44,7 @@ public class DOMXMLWriter {
 		
 		try {
 			
-			// Represent or Save the attributes of Empoyee Object below in XML File :)
+			// Represent or Save the attributes of Employee Object below in XML File :)
 			Employee employee = new Employee(101, "John", 30000);
 			
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
